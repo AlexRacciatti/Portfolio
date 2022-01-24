@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-import {Button, Paper, Container} from '@mui/material'
+import {Button, Container} from '@mui/material'
 import {HomeRounded} from '@mui/icons-material';
 
 function App() {
