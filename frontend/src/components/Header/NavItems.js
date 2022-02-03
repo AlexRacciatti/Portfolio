@@ -5,6 +5,13 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 export const NavItems = [
     {
+        name: 'About Me',
+        url: '#aboutme',
+        cName: 'navbar-items',
+        spanCName:'span-aboutMe',
+        icon: <PersonIcon />
+    },
+    {
         name: 'Projects',
         url: '#projects',
         cName: 'navbar-items',
@@ -17,13 +24,6 @@ export const NavItems = [
         cName: 'navbar-items',
         spanCName:'span-skills',
         icon: <PsychologyIcon />
-    },
-    {
-        name: 'About Me',
-        url: '#aboutme',
-        cName: 'navbar-items',
-        spanCName:'span-aboutMe',
-        icon: <PersonIcon />
     },
     {
         name: 'Contact',
