@@ -1,31 +1,35 @@
 import PsychologyIcon from '@mui/icons-material/Psychology';
-import HomeIcon from '@mui/icons-material/Home';
+import WorkIcon from '@mui/icons-material/Work';
 import PersonIcon from '@mui/icons-material/Person';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 export const NavItems = [
     {
-        name: 'Home',
-        url: '#',
+        name: 'Projects',
+        url: '#projects',
         cName: 'navbar-items',
-        icon: <HomeIcon />
+        spanCName:'span-project',
+        icon: <WorkIcon />
     },
     {
         name: 'Skills',
-        url: '#',
+        url: '#skills',
         cName: 'navbar-items',
+        spanCName:'span-skills',
         icon: <PsychologyIcon />
     },
     {
         name: 'About Me',
-        url: '#',
+        url: '#aboutme',
         cName: 'navbar-items',
+        spanCName:'span-aboutMe',
         icon: <PersonIcon />
     },
     {
         name: 'Contact',
-        url: '#',
+        url: '#contact',
         cName: 'navbar-items',
+        spanCName:'span-contact',
         icon: <ContactPageIcon />
     },
 ];
