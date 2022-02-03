@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+} 
+
 #main-container{
     background-color: #ababab;
     padding: 0px;

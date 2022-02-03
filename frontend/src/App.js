@@ -1,17 +1,12 @@
 import './App.css';
-import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
 import {Button, Container} from '@mui/material'
 import {HomeRounded} from '@mui/icons-material';
 
 function App() {
   return (
     <Container maxWidth="false" id='main-container'>
-       <Header />
-      <Button variant="text" color="error">
-        The Batton
-        <HomeRounded />
-      </Button>
-    
+      <Navbar />
     </Container>
   );
 }
