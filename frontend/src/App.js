@@ -1,13 +1,26 @@
 import './App.css';
-import Header from './components/Header/Header';
-import {Button, Container} from '@mui/material'
-import {HomeRounded} from '@mui/icons-material';
+
+import Home from './components/Home/Home';
+import AboutMe from './components/AboutMe/AboutMe';
+import Contact from './components/Contact/Contact';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <Container maxWidth="false" id='main-container'>
-      <Header />
-    </Container>
+    <div id='main-container'>
+      <Routes>
+      <Route index element={<Home/>}/>
+      <Route path='/aboutme' element={<AboutMe/>} exact/>
+      <Route path='/contact' element={<Contact/>} exact/>
+      <Route path='/projects' element={<Projects/>} exact/>
+      <Route path='/skills' element={<Skills/>} exact/>
+      
+    </Routes>
+    </div>
   );
 }
 
