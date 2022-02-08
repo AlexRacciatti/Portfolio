@@ -6,7 +6,6 @@ const Projects = () => {
     <div>
         <Header />
         <h1>This is Projects Component</h1>
-        <h2>Queria decirte que</h2>
     </div>
   ) 
 };

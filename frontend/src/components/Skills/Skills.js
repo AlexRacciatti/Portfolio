@@ -6,7 +6,6 @@ const Skills = () => {
     <div>
         <Header/>
         <h1>This is skills page</h1>
-        <h2>Te amo con todo mi corazon y</h2>
     </div>
   )
 };

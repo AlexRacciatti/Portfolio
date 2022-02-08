@@ -6,7 +6,6 @@ const AboutMe = () => {
         <div>
             <Header/>
             <h1>This is About Me Component</h1>
-            <h2>Hola polliris</h2>
         </div>
     );
 };

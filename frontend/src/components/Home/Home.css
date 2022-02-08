@@ -1,0 +1,36 @@
+
+.top-main {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-image-container{
+    display: flex;
+}
+
+.main-profile-photo {
+    height: 50vh;
+    width: auto;
+    margin: 15px;
+    background:  radial-gradient(rgba(110, 48,48,.3), rgba(148, 69, 69, 1));
+    border-radius: 150px;
+}
+
+.main-data-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    height: 60vh;
+}
+
+.main-heading{
+    font-size: 2.8rem;
+    padding: 3rem;
+}
+
+.main-subtitle{
+    font-size: 1.6rem;
+}

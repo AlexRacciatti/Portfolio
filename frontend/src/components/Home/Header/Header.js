@@ -24,9 +24,9 @@ class Header extends Component {
   render(){
     return (
       <header className='top-nav-container'>
-        <div className='main-heading'>
+        <div className='header-heading'>
           <Link to='/'>
-            <h1>Alex Racciatti</h1>
+            <h2>Alex Racciatti</h2>
             <h3>Full Stack Web Developer</h3>
           </Link>
         </div>

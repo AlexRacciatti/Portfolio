@@ -1,4 +1,5 @@
 import './App.css';
+import './Normalize.css';
 
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
