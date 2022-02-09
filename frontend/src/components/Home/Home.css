@@ -4,7 +4,7 @@
     flex-flow: row nowrap;
     height: 60vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .main-image-container{
@@ -22,7 +22,6 @@
 .main-data-container {
     display: flex;
     flex-direction: column;
-    margin-right: 15px;
     height: 60vh;
 }
 
