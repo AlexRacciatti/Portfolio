@@ -1,5 +1,5 @@
 .top-nav-container{
-    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.4));
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.6));
     display: flex;
     justify-content: space-between;
 }

@@ -15,21 +15,85 @@
     height: 50vh;
     width: auto;
     margin: 15px;
-    background:  radial-gradient(rgba(110, 48,48,.3), rgba(148, 69, 69, 1));
+    background:  radial-gradient(rgba(201, 28, 28, 0.3), rgb(201, 28, 28));
     border-radius: 150px;
 }
 
 .main-data-container {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50vh;
+    margin-bottom: 7rem;
 }
 
 .main-heading{
-    font-size: 2.8rem;
-    padding: 3rem;
+    font-size: 3rem;
+    padding: 2rem;
 }
 
 .main-subtitle{
-    font-size: 1.6rem;
+    font-size: 2.3rem;
+    margin-bottom: 1em;
+}
+
+.main-list{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+.main-list-items{
+    font-size: 1.7em;
+}
+
+.bottom-main {
+    display: flex;
+    height: 28vh;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-card-container{
+    width: 30%;
+    height: 90%;
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.8));
+    display: flex;
+    
+}
+
+.home-card-container-child{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-cont-title{
+    margin: 0px auto;
+    font-size: 1.5rem;
+    padding: 0.2em;
+    border-bottom: 1px solid red;
+    color: #fff;
+}
+
+.card-info-container{
+    padding: 1rem;
+}
+
+.card-cont-text{
+    display: block;
+    color: #fff;
+    text-align: center;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.card-cont-btn{
+    display: flex;
+    text-decoration: none;
+    width: fit-content;
+    align-items: flex-end;
 }

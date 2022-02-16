@@ -8,7 +8,7 @@ export const HomeElementContent = [
     },
     {
         title: 'Projects',
-        content1: 'Particulary, this project is only frontend-sided. But you can see other projects at my',
+        content1: 'Particulary, this project is only frontend-sided. But you can see other projects at the',
         btnContent: 'Projects page',
         link: '/projects'
     },

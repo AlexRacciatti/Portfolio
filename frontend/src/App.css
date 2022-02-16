@@ -6,6 +6,7 @@
 } 
 
 #main-container{
-    background-color: #ebebeb;
+    background-color: #cccccc;
     padding: 0px;
+    height: 100vh;
 }
