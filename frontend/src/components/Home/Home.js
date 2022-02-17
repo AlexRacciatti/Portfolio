@@ -24,15 +24,15 @@ function Home(children){
                     </div>
                     <div className='main-data-container'>
                         <h1 className='main-heading'>WELCOME TO ALEX RACCIATTI 'S PORTFOLIO</h1>
-                        <>
+                        <div className='main-list-container'>
                             <h2 className='main-subtitle'>Here you will find: </h2>
                             <ul className='main-list'>
-                                <li className='main-list-items'>more information about me</li>
-                                <li className='main-list-items'>the projects i'm currently working in</li>
-                                <li className='main-list-items'>the skills i have as developer</li>
-                                <li className='main-list-items'>several ways to get in touch with me</li>
+                                <li className='main-list-items'><span>💼</span>  the projects i'm currently working in</li>
+                                <li className='main-list-items'><span>🎯</span>  the skills i have as developer</li>
+                                <li className='main-list-items'><span>📱</span>  several ways to get in touch with me</li>
+                                <li className='main-list-items'><span>🙋‍♂️</span>  more information about me</li>
                             </ul>
-                        </>
+                        </div>
                         <Link to={'/aboutme'} style={{ textDecoration: 'none' }}>
                             <Button variant='contained' color='error' size='large'>ABOUT ME PAGE</Button>
                         </Link>

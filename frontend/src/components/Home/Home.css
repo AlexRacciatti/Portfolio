@@ -33,19 +33,28 @@
     padding: 2rem;
 }
 
+.main-list-container{
+    margin-bottom: 1em;
+}
+
 .main-subtitle{
     font-size: 2.3rem;
-    margin-bottom: 1em;
 }
 
 .main-list{
     display: flex;
     flex-flow: column wrap;
-    align-items: flex-end;
+    align-items: flex-start;
+    list-style: none;
 }
 
 .main-list-items{
     font-size: 1.7em;
+    margin: 1.6% 0;
+}
+
+.main-list-items span {
+    margin-right: 1em;
 }
 
 .bottom-main {
