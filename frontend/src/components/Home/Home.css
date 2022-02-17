@@ -105,3 +105,35 @@
     }
     
 }
+
+@media (max-width: 805px) {
+
+    .background-image{
+        background-size: auto;
+        height: auto;
+        background-repeat: repeat;
+        background-position: bottom;
+    }
+    
+    .top-main{
+        height: auto;
+        flex-flow: column nowrap;
+    }
+    
+    .main-image-container{
+        display: block;
+    }
+    
+    .main-data-container{
+        align-items: center
+    }
+    
+    .main-heading{
+        text-align: center;
+    }
+    
+    .bottom-main{
+        height: auto;
+        flex-flow: column nowrap;
+    }
+}

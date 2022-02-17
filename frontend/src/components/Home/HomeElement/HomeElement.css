@@ -39,3 +39,11 @@
     width: fit-content;
     align-items: flex-end;
 }
+
+@media (max-width: 805px){
+    .home-card-container{
+        width: 90%;
+        height: fit-content;
+        margin-bottom: 1em;
+    }
+}
