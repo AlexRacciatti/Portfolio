@@ -33,7 +33,7 @@ function Home(children){
                                 <li className='main-list-items'><span>🙋‍♂️</span>  more information about me</li>
                             </ul>
                         </div>
-                        <Link to={'/aboutme'} style={{ textDecoration: 'none' }}>
+                        <Link to={'/aboutme'} className='abtme-main-btn'>
                             <Button variant='contained' color='error' size='large'>ABOUT ME PAGE</Button>
                         </Link>
                     </div>
