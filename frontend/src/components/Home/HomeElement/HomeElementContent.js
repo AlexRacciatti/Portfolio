@@ -7,7 +7,7 @@ export const HomeElementContent = [
     },
     {
         title: 'Skills',
-        content1: "Even though my profile is Full Stack, i'm currently focused in improving my frontend knowledge by practising with React Js.",
+        content1: "Even though my profile is Full Stack, i'm currently focused in improving my Frontend knowledge by practising with React Js.",
         content2: "If interested, you can check more about my skills in the",
         btnContent: 'Skills page',
         link: '/skills'

@@ -12,16 +12,18 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div id='main-container'>
-      <Routes>
-      <Route index element={<Home/>}/>
-      <Route path='/aboutme' element={<AboutMe/>} exact/>
-      <Route path='/contact' element={<Contact/>} exact/>
-      <Route path='/projects' element={<Projects/>} exact/>
-      <Route path='/skills' element={<Skills/>} exact/>
-      
-    </Routes>
+    <div className='background-image'>
+      <div id='main-container'>
+        <Routes>
+        <Route index element={<Home/>}/>
+        <Route path='/aboutme' element={<AboutMe/>} exact/>
+        <Route path='/contact' element={<Contact/>} exact/>
+        <Route path='/projects' element={<Projects/>} exact/>
+        <Route path='/skills' element={<Skills/>} exact/>
+        </Routes>
+      </div>
     </div>
+    
   );
 }
 

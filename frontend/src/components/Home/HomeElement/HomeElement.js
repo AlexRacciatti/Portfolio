@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './HomeElement.css'
 
 import { Card, CardContent, Button } from '@mui/material';
 
