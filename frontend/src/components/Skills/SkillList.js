@@ -1,33 +1,33 @@
 export const frontSkills = [
     {
         name: 'HTML',
-        experience: 5,
-        knowledge: 4
+        experience: 100,
+        knowledge: 80
     },
     {
         name: 'CSS',
-        experience: 5,
-        knowledge: 4
+        experience: 100,
+        knowledge: 80
     },
     {
         name: 'JavaScript',
-        experience: 4,
-        knowledge: 3
+        experience: 80,
+        knowledge: 60
     },
     {
         name: 'React JS',
-        experience: 4,
-        knowledge: 4
+        experience: 80,
+        knowledge: 80
     },
     {
         name: 'Material UI',
-        experience: 2,
-        knowledge: 4
+        experience: 50,
+        knowledge: 80
     },
     {
         name: 'Bootstrap',
-        experience: 4,
-        knowledge: 5
+        experience: 80,
+        knowledge: 100
     }
 ];
 
@@ -35,29 +35,28 @@ export const frontSkills = [
 export const backSkills = [
     {
         name: 'Node JS',
-        experience: 3,
-        knowledge: 3
+        experience: 60,
+        knowledge: 60
     },
     {
         name: 'Express JS',
-        experience: 3,
-        knowledge: 2
+        experience: 50,
+        knowledge: 50
     },
     {
         name: 'API REST',
-        experienceCreating: 2,
-        experienceUsing: 3,
-        knowledge: 2
+        experience: 30,
+        knowledge: 30
     },
     {
         name: 'Sequelize',
-        experience: 2,
-        knowledge: 3
+        experience: 40,
+        knowledge: 50
     },
     {
         name: 'MySQL',
-        experience: 4,
-        knowledge: 3,
+        experience: 60,
+        knowledge: 60,
     }
 ];
 
@@ -65,23 +64,23 @@ export const backSkills = [
 export const otherSkills = [
     {
         name: 'Git',
-        experience: 5,
-        knowledge: 4
+        experience: 100,
+        knowledge: 80
     },
     {
         name: 'SCRUM',
-        experience: 4,
-        knowledge: 5
+        experience: 80,
+        knowledge: 100
     },
     {
         name: 'Vercel',
-        experience: 4,
-        knowledge: 4
+        experience: 80,
+        knowledge: 80
     },
     {
         name: 'Heroku',
-        experience: 5,
-        knowledge: 4
+        experience: 100,
+        knowledge: 80
     }
 ];
 
