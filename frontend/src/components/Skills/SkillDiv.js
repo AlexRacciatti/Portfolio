@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import './SkillDiv.css'
+
 import { LinearProgress } from '@mui/material';
 
 const SkillDiv = (props) => {
@@ -12,22 +14,13 @@ const SkillDiv = (props) => {
     setInterval(()=>{
       setExpLevel((newELevel) => newELevel < experience ? newELevel + 5 : experience)
     }, 100);
-  }, []);
+  }, [props.experience]);
 
-  const [knwgLevel, setKnwgLevel] = useState(0);
-
-  useEffect(()=>{
-    const knowledge = props.knowledge;
-    setInterval(()=>{
-      setKnwgLevel((newKLevel) => newKLevel < knowledge ? newKLevel + 5 : knowledge)
-    }, 100);
-  }, []);
 
   return (
-    <div>
-      <h3>{props.name}</h3>
-      <p>Experience <LinearProgress variant='determinate' value={expLevel} color= 'error' /></p>
-      <p>Knowledge <LinearProgress variant='determinate' value={knwgLevel} /></p>
+    <div className='skill-div-container'>
+      <h3 className='skill-div-heading'>{props.name}</h3>
+      <LinearProgress variant='determinate' value={expLevel} color= 'error' />
     </div>
   )
 }

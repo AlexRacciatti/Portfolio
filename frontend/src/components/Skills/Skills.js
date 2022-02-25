@@ -12,8 +12,8 @@ const Skills = () => {
     <div>
         <Header/>
         <main className='grid-container'>
-          <h1 className='item-1'>Here are a list of the skills i have as a developer.</h1>
-          <section className='item-2'>
+          <h1 className='item-1'>Here are some list of the skills i have as a developer.</h1>
+          <section className='item-2 skills-section'>
             <h2>Frontend Stack</h2>
             <ul>
               {frontSkills.map((item, index) => {
@@ -25,7 +25,7 @@ const Skills = () => {
               })}
             </ul>
           </section>
-          <section className='item-3'>
+          <section className='item-3 skills-section'>
             <h2>Backend Stack</h2>
             <ul>
               {backSkills.map((item, index) => {
@@ -37,24 +37,24 @@ const Skills = () => {
               })}
             </ul>
           </section>
-          <section className='item-4'>
+          <section className='item-4 skills-section'>
             <h2>Other skills</h2>
             <ul>
               {otherSkills.map((item, index) => {
                 return(
                   <li key={index}>
-                    <SkillDiv name={item.name} experience={item.experience} knowledge={item.knowledge}/>
+                    <SkillDiv name={item.name} experience={item.experience} />
                   </li>
                 )
               })}
             </ul>
           </section>
-          <section className='item-5'>
+          <section className='item-5 skills-section'>
             <h2>Soft skills</h2>
-            <ul>
+            <ul className='soft-skills-ul'>
               {softSkills.map((item, index) => {
                 return(
-                  <li key={index}>
+                  <li key={index} className='soft-skills-li'>
                     <p>{item}</p>
                   </li>
                 )

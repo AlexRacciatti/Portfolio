@@ -1,33 +1,27 @@
 export const frontSkills = [
     {
         name: 'HTML',
-        experience: 100,
-        knowledge: 80
+        experience: 90
     },
     {
         name: 'CSS',
-        experience: 100,
-        knowledge: 80
+        experience: 90
     },
     {
         name: 'JavaScript',
-        experience: 80,
-        knowledge: 60
+        experience: 80
     },
     {
         name: 'React JS',
-        experience: 80,
-        knowledge: 80
+        experience: 85
     },
     {
         name: 'Material UI',
-        experience: 50,
-        knowledge: 80
+        experience: 50
     },
     {
         name: 'Bootstrap',
-        experience: 80,
-        knowledge: 100
+        experience: 80
     }
 ];
 
@@ -35,28 +29,23 @@ export const frontSkills = [
 export const backSkills = [
     {
         name: 'Node JS',
-        experience: 60,
-        knowledge: 60
+        experience: 60
     },
     {
         name: 'Express JS',
-        experience: 50,
-        knowledge: 50
+        experience: 50
     },
     {
         name: 'API REST',
-        experience: 30,
-        knowledge: 30
+        experience: 30
     },
     {
         name: 'Sequelize',
-        experience: 40,
-        knowledge: 50
+        experience: 40
     },
     {
         name: 'MySQL',
         experience: 60,
-        knowledge: 60,
     }
 ];
 
@@ -64,23 +53,19 @@ export const backSkills = [
 export const otherSkills = [
     {
         name: 'Git',
-        experience: 100,
-        knowledge: 80
+        experience: 70
     },
     {
         name: 'SCRUM',
-        experience: 80,
-        knowledge: 100
+        experience: 80
     },
     {
         name: 'Vercel',
-        experience: 80,
-        knowledge: 80
+        experience: 80
     },
     {
         name: 'Heroku',
-        experience: 100,
-        knowledge: 80
+        experience: 80
     }
 ];
 
