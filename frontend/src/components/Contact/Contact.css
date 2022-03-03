@@ -1,0 +1,52 @@
+
+.contact-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left{
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact-form-background{
+    width: 70%;
+    background: linear-gradient(to right, rgba(0,0,0,1), rgb(32, 32, 32));
+    border-radius: 10px;
+    align-self: center;
+    align-items: center;
+}
+
+.contact-form-background h2, h4 {
+    color: #fff;
+    align-self: center;
+    padding: 2vh;
+}
+
+.contact-form-background h2{
+    text-align: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.contact-form > label, button {
+    color: #fff;
+    align-self: center;
+}
+
+.contact-input {
+    margin-bottom: 15px;
+    width: 60%;
+    align-self: center;
+}
