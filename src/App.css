@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+} 
+
+.background-image{
+    background-image: url('img/BckGrnd.img.red.jpg');
+    background-size: cover;
+}
+
+#main-container{
+    background-color: rgba(151, 151, 151, 0.2);
+    padding: 0px;
+    height: 100vh;
+}
+
+@media (max-width: 805px){
+    #main-container{
+        height: auto;
+    }
+}
