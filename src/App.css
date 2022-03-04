@@ -19,5 +19,6 @@
 @media (max-width: 805px){
     #main-container{
         height: auto;
+        padding-bottom: 1rem;
     }
 }

@@ -1,52 +1,75 @@
 
-.contact-container{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.left{
-    display: flex;
-    flex-flow: column wrap;
-    width: 60%;
-}
-
-.right{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-
-.contact-form-background{
+.contact-form-content{
     width: 70%;
-    background: linear-gradient(to right, rgba(0,0,0,1), rgb(32, 32, 32));
+    background: linear-gradient(to right, rgba(0,0,0,.8), rgba(32, 32, 32, .8));
     border-radius: 10px;
     align-self: center;
     align-items: center;
+    margin: 1rem auto 0;
+    
 }
 
-.contact-form-background h2, h4 {
+.contact-heading {
     color: #fff;
     align-self: center;
     padding: 2vh;
 }
 
-.contact-form-background h2{
+.contact-form-content h1{
     text-align: center;
+    border-bottom: 1px solid red;
+    padding: 1rem 3rem 0px;
+    width: fit-content;
+    margin: auto;
+}
+
+.contact-form-subtitle{
+    padding-top: 4vh;
+    padding-bottom: 0px;
 }
 
 .contact-form{
     display: flex;
     flex-direction: column;
     padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    width: fit-content;
+    border-bottom: solid 1px red;
 }
 
-.contact-form > label, button {
+.contact-form > label {
     color: #fff;
-    align-self: center;
+    border-bottom: solid 1px red;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 1rem;
 }
 
 .contact-input {
     margin-bottom: 15px;
-    width: 60%;
+    width: 50vw;
+}
+
+.contact-submit-btn {
+    width: 25%;
+    min-width: 90px;
+    padding: 0.5rem;
     align-self: center;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.contact-socials-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.contact-social-item{
+    color: #fff;
+    padding: 2rem;
+    text-decoration: none;
 }
