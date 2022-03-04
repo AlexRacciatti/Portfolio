@@ -23,11 +23,6 @@
     margin: auto;
 }
 
-.contact-form-subtitle{
-    padding-top: 4vh;
-    padding-bottom: 0px;
-}
-
 .contact-form{
     display: flex;
     flex-direction: column;
@@ -49,6 +44,11 @@
 .contact-input {
     margin-bottom: 15px;
     width: 50vw;
+    background: rgb(51, 51, 51);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
 }
 
 .contact-submit-btn {
@@ -65,7 +65,7 @@
 .contact-socials-list{
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .contact-social-item{

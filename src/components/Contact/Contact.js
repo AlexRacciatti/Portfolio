@@ -32,7 +32,6 @@ const Contact = () => {
         <Header/>
         <div className='contact-form-content'>
           <h1 className='contact-heading'>Contact me!</h1>
-          <h2 className='contact-heading contact-form-subtitle'>Complete this form to send me a message to my email 😄</h2>
           <form ref={form} onSubmit={sendEmail} className='contact-form'>
             <label>Name</label>
             <input type="text" name="user_name" className='contact-input' required />
@@ -45,7 +44,6 @@ const Contact = () => {
             
             <button className='contact-submit-btn' type='submit'>Submit</button>
           </form>
-          <h2 className='contact-heading contact-form-subtitle'>Feel free to connect with me at LinkedIn and view my code at GitHub</h2>
           <ul className='contact-socials-list'>
             <li ><a className='contact-social-item' href='https://www.linkedin.com/in/alexracciatti/' target={'_blank'} rel='noreferrer'><LinkedIn  style={{ fontSize: '70px' }}/></a></li>
             <li ><a className='contact-social-item' href='https://github.com/AlexRacciatti' target={'_blank'} rel='noreferrer'><GitHub  style={{ fontSize: '70px' }}/></a></li>
