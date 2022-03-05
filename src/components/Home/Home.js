@@ -27,15 +27,17 @@ function Home(children){
                         <div className='main-list-container'>
                             <h2 className='main-subtitle'>Here you will find: </h2>
                             <ul className='main-list'>
-                                <li className='main-list-items'><span>💼</span>  the projects i'm currently working in</li>
-                                <li className='main-list-items'><span>🎯</span>  the skills i have as developer</li>
-                                <li className='main-list-items'><span>📱</span>  several ways to get in touch with me</li>
-                                <li className='main-list-items'><span>🙋‍♂️</span>  more information about me</li>
+                                <li className='main-list-items'><span>💼</span>  The projects i'm currently working in</li>
+                                <li className='main-list-items'><span>🎯</span>  The skills i have as developer</li>
+                                <li className='main-list-items'><span>📱</span>  Several ways to get in touch with me</li>
+                                <li className='main-list-items'><span>🙋‍♂️</span>  More information about me</li>
                             </ul>
                         </div>
+                        <div>
                         <Link to={'/aboutme'} className='abtme-main-btn'>
                             <Button variant='contained' color='error' size='large'>ABOUT ME PAGE</Button>
                         </Link>
+                        </div>
                     </div>
                 </section>
                 <section className='bottom-main'>

@@ -12,8 +12,8 @@
 
 #main-container{
     background-color: rgba(151, 151, 151, 0.2);
-    padding: 0px;
-    height: 100vh;
+    padding-bottom: 10px;
+    min-height: 100vh;
 }
 
 @media (max-width: 805px){

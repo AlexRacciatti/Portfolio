@@ -1,6 +1,6 @@
 .home-card-container{
     width: 30%;
-    height: 90%;
+    height: 250px;
     background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.8));
     display: flex;
     
@@ -38,6 +38,12 @@
     text-decoration: none;
     width: fit-content;
     align-items: flex-end;
+}
+
+@media (max-width: 1200px){
+    .home-card-container{
+        height: 290px;
+    }
 }
 
 @media (max-width: 805px){
