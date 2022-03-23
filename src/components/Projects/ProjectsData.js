@@ -11,16 +11,8 @@ export const ProjectsData = [
         pageLink: 'https://libreria-hedwig.herokuapp.com/',
         gitLink: 'https://github.com/AlexRacciatti/Hedwig-Ecommerce',
         techs: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node JS', 'Express JS', 'MySQL', 'Sequelize', 'Git', 'Heroku'],
-        coverImage: hedwigHome
-    },
-    {
-        title: 'Mercado Liebre',
-        subtitle: 'This was my very first project, also made at Digital House bootcamp',
-        description: 'Only made with HTML and CSS. This was my first approach to web development.',
-        pageLink: 'https://mercado-liebre1969.herokuapp.com/',
-        gitLink: 'https://github.com/AlexRacciatti/MercadoLiebre',
-        techs: ['HTML', 'CSS', 'Git', 'Heroku'],
-        coverImage: mliebreHome
+        coverImage: hedwigHome,
+        altText: 'Hedwig Bookshop main page'
     },
     {
         title: 'My portfolio',
@@ -29,6 +21,18 @@ export const ProjectsData = [
         pageLink: 'https://alexracciatti.vercel.app',
         gitLink: 'https://github.com/AlexRacciatti/Portfolio',
         techs: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Material UI', 'Git', 'Vercel'],
-        coverImage: portfolioHome
+        coverImage: portfolioHome,
+        altText: 'My portfolio main page'
+    },
+    {
+        title: 'Mercado Liebre',
+        subtitle: 'This was my very first project, also made at Digital House bootcamp',
+        description: 'Only made with HTML and CSS. This was my first approach to web development.',
+        pageLink: 'https://mercado-liebre1969.herokuapp.com/',
+        gitLink: 'https://github.com/AlexRacciatti/MercadoLiebre',
+        techs: ['HTML', 'CSS', 'Git', 'Heroku'],
+        coverImage: mliebreHome,
+        altText: 'Mercado Liebre main page'
     }
+    
 ]
