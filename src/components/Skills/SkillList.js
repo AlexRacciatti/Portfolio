@@ -9,11 +9,11 @@ export const frontSkills = [
     },
     {
         name: 'JavaScript',
-        experience: 80
+        experience: 70
     },
     {
         name: 'React JS',
-        experience: 85
+        experience: 70
     },
     {
         name: 'Material UI',
@@ -37,7 +37,7 @@ export const backSkills = [
     },
     {
         name: 'API REST',
-        experience: 30
+        experience: 50
     },
     {
         name: 'Sequelize',

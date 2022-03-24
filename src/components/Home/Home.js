@@ -23,7 +23,7 @@ function Home(children){
                         <img src={img} alt='Alex Racciatti' className='main-profile-photo'></img>
                     </div>
                     <div className='main-data-container'>
-                        <h1 className='main-heading'>WELCOME TO ALEX RACCIATTI 'S PORTFOLIO</h1>
+                        <h1 className='main-heading'>WELCOME TO MY PORTFOLIO</h1>
                         <div className='main-list-container'>
                             <h2 className='main-subtitle'>Here you will find: </h2>
                             <ul className='main-list'>
