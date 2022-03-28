@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Home/Header/Header';
 
-import { styled } from '@mui/system';
+import { padding, styled } from '@mui/system';
 import { Accordion, AccordionSummary, AccordionDetails} from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
 
@@ -11,7 +11,11 @@ const AboutMe = () => {
 
     const MyAccordion = styled(Accordion)({
         backgroundColor: 'rgba(211, 47, 47, .9)',
-        color: 'rgb(223, 223, 223)'
+        color: 'rgb(223, 223, 223)',
+        width: '80%',
+        padding: '5px 10px',
+        margin: '1px auto',
+        borderRadius: '5px'
     })
 
 
