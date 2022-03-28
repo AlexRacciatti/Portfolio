@@ -1,0 +1,14 @@
+
+.abtMe-main-container {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #d32f2f;
+    border-radius: 5px;
+    color: rgb(223, 223, 223);
+}
